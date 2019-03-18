@@ -82,7 +82,7 @@
      border:none;
      background-color: #FFF600;
      color: #FFF600;
-     margin-left: 0px;
+     margin-left: 0px auto;
 }
 
 #text{
@@ -248,7 +248,7 @@
     border:none;
     background-color: #6FA8E0;
     color: #6FA8E0;
-    margin: 0px 3px 0px;
+    margin: 15px 3px 0px;
 }
 
 #skill{
@@ -263,37 +263,19 @@
     margin: 0px 0px 0px;
 }
 
-#skill1{
+.skill-name ul{
     list-style: none;
-    color: #1D4C8B;
-    border-top-width: 0px;
-    padding-left: 0px;
-    font-weight: 720;
-    font-style: oblique -100deg;
-    font-variant: normal;
-    font-family: sans-serif;
-    letter-spacing: normal;
-    margin: 0px 0px 0px;
+    margin-left:10px;
 }
 
-#skill2{
-    list-style: none;
-    color: #1D4C8B;
-    border-top-width: 0px;
-    padding-left: 0px;
-    font-weight: 720;
-    font-style: oblique -100deg;
-    font-variant: normal;
-    font-family: sans-serif;
-    letter-spacing: normal;
-    margin: 0px 0px 0px;
+.skill-name li:before{
+    content: "—";
 }
 
-#skill3{
-    list-style: none;
+.skill1-name{
     color: #1D4C8B;
     border-top-width: 0px;
-    padding-left: 0px;
+    padding-left: 3px;
     font-weight: 720;
     font-style: oblique -100deg;
     font-variant: normal;
@@ -323,11 +305,20 @@
     margin: 0px 0px 0px;
 }
 
-#about-me4{
+.about-me1 ul{
     list-style: none;
+    margin-left:10px;
+}
+
+.about-me1 li:before{
+    content: "—";
+}
+
+
+#about-me4{
     color: #1D4C8B;
     border-top-width: 0px;
-    padding-left: 0px;
+    padding-left: 3px;
     font-weight: 720;
     font-style: oblique -100deg;
     font-variant: normal;
@@ -337,10 +328,9 @@
 }
 
 #about-me5{
-    list-style: none;
     color: #1D4C8B;
     border-top-width: 0px;
-    padding-left: 0px;
+    padding-left: 3px;
     font-weight: 720;
     font-style: oblique -100deg;
     font-variant: normal;
@@ -350,10 +340,9 @@
 }
 
 #about-me6{
-    list-style: none;
     color: #1D4C8B;
     border-top-width: 0px;
-    padding-left: 0px;
+    padding-left: 3px;
     font-weight: 720;
     font-style: oblique -100deg;
     font-variant: normal;
